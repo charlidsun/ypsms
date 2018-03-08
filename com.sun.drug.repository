@@ -1,0 +1,31 @@
+2018-02-14 08:51:23.417  INFO 1241 --- [main] com.sun.drug.DrugApplication             : Starting DrugApplication on PeachtekiMacBook-Air.local with PID 1241 (/Users/Peach/Downloads/drug/target/classes started by Peach in /Users/Peach/Downloads/drug)
+2018-02-14 08:51:23.422  INFO 1241 --- [main] com.sun.drug.DrugApplication             : No active profile set, falling back to default profiles: default
+2018-02-14 08:51:23.614  INFO 1241 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Wed Feb 14 08:51:23 CST 2018]; root of context hierarchy
+2018-02-14 08:51:24.770  INFO 1241 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-14 08:51:25.314  INFO 1241 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6fb6074] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-14 08:51:25.769  INFO 1241 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8900 (http)
+2018-02-14 08:51:25.784  INFO 1241 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-14 08:51:25.785  INFO 1241 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-14 08:51:25.874  INFO 1241 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-14 08:51:25.874  INFO 1241 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2269 ms
+2018-02-14 08:51:26.042  INFO 1241 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-14 08:51:26.046  INFO 1241 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-14 08:51:26.047  INFO 1241 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-14 08:51:26.047  INFO 1241 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-14 08:51:26.047  INFO 1241 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-14 08:51:26.767  INFO 1241 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Wed Feb 14 08:51:23 CST 2018]; root of context hierarchy
+2018-02-14 08:51:26.831  INFO 1241 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/drug/list/{firstSpelling}],methods=[GET]}" onto public java.util.List<com.sun.drug.domain.Drugs> com.sun.drug.controller.DrugsController.listDrugs(java.lang.String)
+2018-02-14 08:51:26.833  INFO 1241 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/drug/{id}],methods=[GET]}" onto public com.sun.drug.domain.Drugs com.sun.drug.controller.DrugsController.listDrugs(int)
+2018-02-14 08:51:26.836  INFO 1241 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-14 08:51:26.837  INFO 1241 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-14 08:51:26.868  INFO 1241 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-14 08:51:26.868  INFO 1241 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-14 08:51:26.914  INFO 1241 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-14 08:51:27.478  INFO 1241 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-14 08:51:27.559  INFO 1241 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8900 (http)
+2018-02-14 08:51:27.565  INFO 1241 --- [main] com.sun.drug.DrugApplication             : Started DrugApplication in 4.686 seconds (JVM running for 5.615)
+2018-02-14 08:51:34.524  INFO 1241 --- [http-nio-8900-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-14 08:51:34.524  INFO 1241 --- [http-nio-8900-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-14 08:51:34.550  INFO 1241 --- [http-nio-8900-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-02-14 08:53:32.175  INFO 1241 --- [Thread-12] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Wed Feb 14 08:51:23 CST 2018]; root of context hierarchy
+2018-02-14 08:53:32.200  INFO 1241 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
